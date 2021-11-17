@@ -1,8 +1,0 @@
-Web Scraping Steam games site using BeautifulSoup
-Steam is a popular video game digital distribution service where gamers view and download games of their interest. Due to the increase in E-Sports, there are a number of games which have caught the interest of youth of this generation.
-Steam is home to a million games which are both Free to Play as well as purchase to play including all new releases, their ratings, reviews etc.
-This project is about scraping steam website to extract information about all the games, their release date, reviews, platforms it can be played on and saving the data to a csv file for further processing.
-The dataframe for the scrapped data is created and placed in the same folder as the notebook file. Once the data is saved to a csv file, it can be used for further processing e.g. building a recommendation system for games.
-Please Note:
-1. There are few records for which the user reviews might not be present as a % format. These records will be cleaned during data preprocessing.
-2. For some records, the cost of game/software is not mentioned due to multiple prices(subscription packs). These will be handled during data wrangling.
